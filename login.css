@@ -1,0 +1,61 @@
+#appInfo{
+    width: 100vw;
+    background-color: lightblue;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    color: green;
+}
+#loginPage{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222;
+}
+
+h1{
+    color: white;
+
+}
+#log-in{
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+input{
+    border: none;
+    background-color: beige;
+    height: 30px;
+    border-radius: 5px;
+    font-size:15px ;
+    padding: 5px;
+}
+
+#submit{
+    font-size: 20px;
+    background-color: #222;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+#submit:hover{
+    color: black;
+    background-color: white;
+}
+#submit:active{
+    color: black;
+    background-color: greenyellow;
+    transition: transform 100ms ease-in;
+    transform: scale(0.9);
+}
